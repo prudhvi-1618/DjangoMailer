@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~
+
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode settings
+.vscode/
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+*.pickle
+*.sqlite3
+media/
+staticfiles/
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Logs
+*.log
+logs/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Build/Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / test database
+test.db
+tests/__pycache__/
